@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { socket } from "./socket";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://stock-market-backend-hdv7.onrender.com";
 
 function App() {
   const [stocks, setStocks] = useState([]);
